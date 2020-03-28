@@ -1,0 +1,17 @@
+$color: #345433;
+ol li {
+  color: $color;
+}
+p > div {
+  font-size: 1rem;
+  color:#000;
+}
+#welcome {
+  color: $color;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  #welcome {
+    font-size: 1rem;
+  }
+}
