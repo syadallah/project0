@@ -1,4 +1,5 @@
-$color: #345433;
+$color: #175;
+
 ol li {
   color: $color;
 }
@@ -10,7 +11,7 @@ p > div {
   color: $color;
   font-size: 2rem;
 }
-img {
+.img {
    border-radius: 50%;
    width: 50vw;
    height: 50vh;
