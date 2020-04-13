@@ -15,6 +15,9 @@ img {
    width: 50vw;
    height: 50vh;
 }
+.list-group-item {
+  color: #000;
+}
 @media (max-width: 500px) {
   #welcome {
     font-size: 1rem;
