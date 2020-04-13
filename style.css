@@ -1,5 +1,5 @@
 ol li {
-  color: #345433;
+  color: #175;
 }
 
 p > div {
@@ -8,11 +8,11 @@ p > div {
 }
 
 #welcome {
-  color: #345433;
+  color: #175;
   font-size: 2rem;
 }
 
-img {
+.img {
   border-radius: 50%;
   width: 50vw;
   height: 50vh;
@@ -20,6 +20,13 @@ img {
 
 .list-group-item {
   color: #000;
+}
+
+div {
+  font-size: 18px;
+}
+div p {
+  color: blue;
 }
 
 @media (max-width: 500px) {

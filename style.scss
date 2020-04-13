@@ -19,6 +19,12 @@ p > div {
 .list-group-item {
   color: #000;
 }
+div {
+  font-size: 18px;
+  p {
+    color: blue;
+  }
+}
 @media (max-width: 500px) {
   #welcome {
     font-size: 1rem;
