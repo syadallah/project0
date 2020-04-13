@@ -1,5 +1,5 @@
 $color: #175;
-$fontsize: 4rem;
+$fontsize: 2rem;
 
 ol li {
   color: red;
@@ -11,7 +11,7 @@ p > div {
 }
 #welcome {
   color: $color;
-  font-size: 8rem;
+  font-size: 4rem;
 }
 .img {
    border-radius: 50%;
@@ -22,6 +22,7 @@ p > div {
 }
 table, th, td {
   border: 2px solid yellow;
+  font-size: $fontsize;
 }
 .list-group-item {
   color: #red;
@@ -30,6 +31,7 @@ div {
   font-size: 18px;
   p {
     color: blue;
+    font-size: $fontsize;
   }
 }
 @media (max-width: 500px) {

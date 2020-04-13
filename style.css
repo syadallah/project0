@@ -1,16 +1,16 @@
 ol li {
   color: red;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 p > div {
-  font-size: 4rem;
+  font-size: 2rem;
   color: #000;
 }
 
 #welcome {
   color: #175;
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 .img {
@@ -22,6 +22,7 @@ p > div {
 
 table, th, td {
   border: 2px solid yellow;
+  font-size: 2rem;
 }
 
 .list-group-item {
@@ -33,11 +34,12 @@ div {
 }
 div p {
   color: blue;
+  font-size: 2rem;
 }
 
 @media (max-width: 500px) {
   #welcome {
-    font-size: 4rem;
+    font-size: 2rem;
     background-color: #175;
     color: #fff;
   }
