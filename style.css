@@ -1,25 +1,31 @@
 ol li {
-  color: #175;
+  color: red;
+  font-size: 4rem;
 }
 
 p > div {
-  font-size: 1rem;
+  font-size: 4rem;
   color: #000;
 }
 
 #welcome {
   color: #175;
-  font-size: 2rem;
+  font-size: 8rem;
 }
 
 .img {
   border-radius: 50%;
-  width: 50vw;
+  width: 35vw;
   height: 50vh;
+  align-items: center;
+}
+
+table, th, td {
+  border: 2px solid yellow;
 }
 
 .list-group-item {
-  color: #000;
+  color: #red;
 }
 
 div {
@@ -31,7 +37,9 @@ div p {
 
 @media (max-width: 500px) {
   #welcome {
-    font-size: 1rem;
+    font-size: 4rem;
+    background-color: #175;
+    color: #fff;
   }
 }
 
