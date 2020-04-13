@@ -10,6 +10,11 @@ p > div {
   color: $color;
   font-size: 2rem;
 }
+img {
+   border-radius: 50%;
+   width: 50vw;
+   height: 50vh;
+}
 @media (max-width: 500px) {
   #welcome {
     font-size: 1rem;
